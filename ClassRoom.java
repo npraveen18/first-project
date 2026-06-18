@@ -2,18 +2,18 @@ import java.util.ArrayList;
 public class ClassRoom {
     String nameOfClass;
     int classNum;
-    ArrayList<String> assignments;
+    ArrayList<Assignment> assignments;
 
     
     public ClassRoom(){
         classNum = 0;
         nameOfClass = "Untitled";
-        assignments = new ArrayList<String>();
+        assignments = new ArrayList<Assignment>();
     }
     public ClassRoom(String name, int num){
         classNum = num;
         nameOfClass = name;
-        assignments = new ArrayList<String>();
+        assignments = new ArrayList<Assignment>();
     }
     
 
@@ -25,18 +25,18 @@ public class ClassRoom {
     }
 
 
-    public ArrayList<String> getAssignments(){
+    public ArrayList<Assignment> getAssignments(){
         return assignments;
     }
-    public ArrayList<String> addAssignment(String str){
+    public ArrayList<Assignment> addAssignment(Assignment str){
         assignments.add(str);
         return assignments;
     }
-    public String removeAssignment(){
+    public Assignment removeAssignment(){
         //I am going to change this to where you can put in any
         //index to delete an assignment, for now though for 
         //simplicity I will just keep it as it is now
-        String output = assignments.remove(0);
+        Assignment output = assignments.remove(0);
         return output;
     }
 

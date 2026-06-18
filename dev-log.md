@@ -12,3 +12,6 @@ and other professional avenues of coding. As far as functional
 aspects of the project, I made a basic class for an object
 that represents a class the student is taking, and adding a
 assignment list and name for each class the student will add.
+
+June 18:
+Today I made an Assignment class which is a basic class to represent an Assignment object which will contain the said assignment that I will put in based on what the user enters as an input. I changed the ClassRoom class where I made the shift to make the "assignments" list and all related getters/setters to use Assignment objects. I also made a main class, which will later be changed to be a UI.
