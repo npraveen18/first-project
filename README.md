@@ -14,3 +14,6 @@ equivalently appropriate for each.
 Assignment file: This file contains the Assignment class. Each assignment will be contained under a list in a ClassRoom object.
 Each will detail the name, due date, and completedness of the 
 assginment. All instance variables have appropriately named getters and setters.
+
+UI file: This file will contain all of the UI needed on the front end of the app. It will be what the User sees, and
+will include some of the class files in order to make a usable interface where the user can add classes and then add assignments for each class.
